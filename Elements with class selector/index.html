@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements with class Selector</title>
+    <style>
+      /* all with clas="highlight" */
+      .highlight {
+        background-color: green;
+      }
+      /* all p elements with clas="highlight" */
+      p.highlight {
+        font-style: italic;
+      }
+      /* all elements with clas="highlight" as well as with class="mainPoint" */
+      .highlight.mainPoint {
+        color: red;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="highlight">Element with class selector</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nostrum
+      in accusamus, veniam dolorem nihil, aliquid quam illo exercitationem ullam
+      aut eum dolore eveniet tenetur obcaecati pariatur explicabo? Mollitia,
+      repellendus!
+    </p>
+    <p class="highlight">This is p with CLASS="highlight"</p>
+    <div class="mainPoint highlight">This is the main point of the entire article.</div>    
+  </body>
+</html>
