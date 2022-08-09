@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating Elements</title>
+    <style>
+      div {
+        background-color: #00ffff;
+      }
+      p {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        float:left;
+        margin-right: 10px;
+      }
+      #p1 {
+        background-color: #a52a2a;
+      }
+      #p2 {
+        background-color: #deb887;
+      }
+      #p3 {
+        background-color: #5f9ea0;
+        clear: left;
+      }
+      #p4 {
+        background-color: #ff7f50;
+      }
+      section {
+        clear: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Floating Elements</h1>
+    <div>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <section>
+        This is regular content continuing after the paragraph boxes.
+      </section>
+    </div>
+  </body>
+</html>
